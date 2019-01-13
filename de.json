@@ -1,0 +1,8 @@
+{
+  "Description": "Integriere das Elgato Stream Deck in dein Zapier-Setup und automatisiere deine Arbeitsabläufe leichter als zuvor.",
+  "Name": "Zapier-Integration",
+  "de.tobimori.streamdeck.zapier.action": {
+    "Name": "Zapier-Button",
+    "Tooltip": "Sobald Stream Deck-Button gedrückt, mache..."
+  }
+}

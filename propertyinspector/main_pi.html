@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>de.tobimori.streamdeck.zapier.pi</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="main_pi.js"></script>
+</head>
+
+<body>
+<div class="sdpi-wrapper hidden">
+
+    <div class="sdpi-heading">SETTINGS</div>
+
+        <div class="sdpi-item">
+           <div class="sdpi-item-label">User ID</div>
+           <input class="sdpi-item-value" id="userid" value="" onchange="updateSettings()" placeholder="Enter your User ID">
+        </div>
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Zap ID</div>
+            <input class="sdpi-item-value" id="zapid" value="" onchange="updateSettings()" placeholder="Enter the ID of your Zap">
+        </div>
+
+</div>
+</body>
+
+</html>

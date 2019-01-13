@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "resources/actionIcon",
+      "Name": "Zapier Button",
+      "States": [
+    {
+      "Image": "resources/actionDefaultImage",
+      "TitleAlignment": "bottom",
+      "FontSize": "10"
+    }
+  ],
+  "SupportedInMultiActions": false,
+  "Tooltip": "If Stream Deck button pressed, then...",
+  "UUID": "de.tobimori.streamdeck.zapier.action"
+}
+],
+"Author": "tobimori",
+"CodePath": "plugin/main.html",
+"Description": "Integrate the Elgato Stream Deck in your Zapier setup and automate your workflow more easier.",
+"Name": "Zapier Integration",
+"Icon": "resources/pluginIcon",
+"URL": "https://streamdeck.tobimori.de",
+"PropertyInspectorPath": "propertyinspector/main_pi.html",
+"Version": "1.0",
+"Category": "tobimori",
+"CategoryIcon": "resources/categoryIcon",
+"OS": [
+{
+  "MinimumVersion" : "10.11",
+  "Platform": "mac"
+},
+  {
+"Platform": "windows",
+"MinimumVersion" : "10"
+    }
+  ]
+}
